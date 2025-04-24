@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from "next"
-const users = []
+const users: any[] = []
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   const { name, message } = req.body
